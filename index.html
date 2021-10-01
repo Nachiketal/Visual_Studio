@@ -1,29 +1,36 @@
 <html>
     <head>
-        <title>Name of students</title>;
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="main.js"></script> 
-    </head> 
+        <title>Console</title>
+    </head>
     <body>
-        <center>
-            <h3 style="margin-top: 20px; margin-bottom: 20px;">List of students in my class</h3>;
-            <div>
-                <span>1</span>
-                <input type="text" placeholder="name of the student" id="name_of_student_1">
-                <br>
-                <span>2</span>
-                <input type="text" placeholder="name of the student" id="name_of_student_2">
-                <br>
-                <span>3</span>
-                <input type="text" placeholder="name of the student" id="name_of_student_3">
-                <br>
-                <span>4</span>
-                <input type="text" placeholder="name of the student" id="name_of_student_4">
-                <br>
-            </div>
-            <button onclick="submit()" id="submit_button">Submit</button>
-            <div id="display_name" style="font-weight: bold;"></div>
-            <button onclick="sort()" id="sort_button">Sort</button>
-        </center>
+        <h1>
+            Open Console
+        </h1>
+        <h4>
+            What is your full name ?
+            <br>
+            What is the square root of 225 ?
+            <br>
+            What is the maximum number in 3,4,1,5,2 ?
+            <br>
+            What is the minimum number in 62,50,53,71 ?
+            <br>
+            What is 6 raised to the power of 4 ?
+        </h4>
+        <script>
+            console.log("Hi I am Console Screen");
+            var first_name="Harper ";
+            var last_name="Lee";  
+            var full_name=first_name.concat(last_name);
+            console.log(full_name);
+            var sqrt=Math.sqrt(225);
+            console.log(sqrt);
+            var max_number=Math.max(3,4,1,5,2);
+            console.log(max_number);
+            var min_number=Math.min(62,50,53,71);
+            console.log(min_number);
+            var pow_no=Math.pow(6,4);
+            console.log(pow_no);
+        </script>
     </body>
 </html>
